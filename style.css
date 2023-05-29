@@ -1,0 +1,159 @@
+*{
+    background:lightblue;
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;    
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+.text-area {
+    height: 400px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background: white;
+    border: 2px solid rgb(219, 188, 129);
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+    transition: 0.5 all;
+}
+::placeholder { color: lightgray }
+  .text-area:focus {
+      outline: none;
+    }
+.text-area:hover{
+        border: 2px solid rgb(192, 131, 17)
+    }
+
+.mensaje{
+    height: 630px;
+    background: white;
+    background-image: url("./imagenes/detective.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 12px  rgb(219, 188, 129);
+    border-radius: 1em;
+    border: 2px solid rgb(219, 188, 129);
+    display: flex;
+    align-items: center;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: rgb(228, 181, 95);
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover{
+    background-color: lightgray;
+    transform: scale(0.9)
+}
+
+
+.btn-desencriptar:active{
+    background-color: gray;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover{
+    background-color: lightgray;
+    transform: scale(0.9)
+}
+
+.btn-encriptar:active{
+    background-color: antiquewhite;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    background-color: lightgray;
+    transform: scale(0.9)
+}
+
+.copiar:active{
+    background-color: antiquewhite;
+}
+
+.informacion {
+    color: #384b5e;
+    font-size:18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: none;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
